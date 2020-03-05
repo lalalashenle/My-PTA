@@ -10,6 +10,8 @@
 
 using namespace std;
 
+
+// 特殊临界情况：只输入了一个常数，则需对应输出零多项式 "0 0"
 vector<int> answer(vector<int> test) {
 	vector<int> zero = { 0, 0 };
 	vector<int> res;
